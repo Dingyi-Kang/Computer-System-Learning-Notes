@@ -16,7 +16,8 @@ A collection of in-depth notes and explorations on computer systems, covering to
 - Block Layer Architecture
 - Filesystem Internals
 - SSD vs HDD Characteristics
-- io_uring Modern Async I/O
+- **[Intro to io_uring Modern Async I/O](./disk-io/io_uring_intro.md)**
+- **[io_uring: syscall, cpu usage and pool](./disk-io/io_uring_cpu_pool.md)**
 - Direct I/O (O_DIRECT) vs Buffered I/O
 - Page Cache Management
 - I/O Scheduling Algorithms
