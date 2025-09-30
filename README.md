@@ -49,30 +49,6 @@ A collection of in-depth notes and explorations on computer systems, covering to
 - System Calls & Interrupts
 - Kernel Space vs User Space
 
-## 🎯 Current Focus
-
-**Disk-Based ANN Search with Dynamic Caching**
-- Investigating caching strategies for billion-scale approximate nearest neighbor search
-- Exploring spatial locality and workload-adaptive caching
-- Comparing io_uring vs traditional I/O approaches
-- SSD optimization techniques
-
-## 📖 How to Use This Repository
-
-Each topic contains:
-- **Conceptual explanations** - Understanding the "why" behind system behaviors
-- **Implementation details** - How things actually work under the hood
-- **Code examples** - Practical demonstrations in C/C++
-- **Performance analysis** - Benchmarks and profiling results
-- **Best practices** - Recommendations for real-world usage
-
-## 🔨 Tools & Technologies
-
-- **Languages**: C, C++, Python
-- **Profiling**: perf, flamegraphs, valgrind
-- **Benchmarking**: fio, sysbench, custom microbenchmarks
-- **Development**: Linux kernel 5.1+, GCC/Clang
-
 ## 📝 Contributing
 
 These are personal learning notes, but suggestions and corrections are welcome! If you spot an error or have additional insights, please open an issue or PR.
@@ -105,12 +81,6 @@ These are personal learning notes, but suggestions and corrections are welcome! 
 - "Efficient IO with io_uring" - Jens Axboe
 - "The Design and Implementation of a Log-Structured File System" - Rosenblum & Ousterhout
 - "Dynamo: Amazon's Highly Available Key-value Store" - DeCandia et al.
-
-## 🔗 Related Projects
-
-- Disk-Based ANN Search Implementation (coming soon)
-- Custom Memory Allocator
-- Lock-Free Queue Implementations
 
 ## 📧 Contact
 
